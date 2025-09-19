@@ -25,7 +25,7 @@ app.use(
       "http://localhost:5173",
       "https://unichat-cyan.vercel.app"
     ],
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST","PUT","DELETE"],
     credentials: true,
   })
 );

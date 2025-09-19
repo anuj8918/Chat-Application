@@ -9,7 +9,7 @@ const io = new Server(server, {
   cors: {
     // Both localhost (for development) and your Vercel URL (for production) are now allowed.
     origin: ["http://localhost:5173", "https://unichat-cyan.vercel.app"],
-    methods: ["GET", "POST"], // It's good practice to specify allowed methods
+    methods: ["GET", "POST","PUT","DELETE"], // It's good practice to specify allowed methods
     credentials: true,
   },
 });
