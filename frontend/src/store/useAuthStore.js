@@ -3,7 +3,7 @@
 // import toast from "react-hot-toast";
 // import { io } from "socket.io-client";
 
-// const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5001/api" : "https://chat-application-2-b4kp.onrender.com/api";
+// const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5001/api" : "https://chat-application-gdcr.onrender.com/api";
 
 // export const useAuthStore = create((set, get) => ({
 //   authUser: null,
@@ -113,7 +113,7 @@ import { io } from "socket.io-client";
 // Define a separate URL for the Socket.IO connection
 const SOCKET_URL = import.meta.env.MODE === "development" 
     ? "http://localhost:5001" 
-    : "https://chat-application-2-b4kp.onrender.com";
+    : "https://chat-application-gdcr.onrender.com";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
